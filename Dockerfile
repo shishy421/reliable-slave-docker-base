@@ -1,6 +1,6 @@
 FROM reliable-docker-base
 
-MAINTAINER ssy<469894183@qq.com>
+MAINTAINER ssy<shishy_jib@163.com>
 
 RUN yum install -y xorg-x11-server-Xvfb java-1.7.0-openjdk-devel which glibc.i686 zlib.i686 libgcc-4.8.5-4.el7.i686 glx-utils git libstdc++.i686 file make qemu-kvm libvirt virt-install bridge-utils
 
