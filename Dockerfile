@@ -28,8 +28,9 @@ RUN npm install macaca-cli -g
 
 #macaca依赖
 RUN npm install macaca-chrome -g
-#RUN cnpm install macaca-android -g
+RUN cnpm install macaca-android -g
 RUN npm install macaca-electron -g
+RUN npm install macaca-ios -g
 
 #查看macaca环境
 RUN macaca doctor
